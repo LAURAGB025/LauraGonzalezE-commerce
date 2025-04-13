@@ -1,0 +1,58 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #5c9210;
+}
+
+#filtro {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.producto button,
+.carrito button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carrito {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+}
+
+.carrito button.vaciar {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
